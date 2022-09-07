@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+
+body{
+  background-color: var(--bg-body);
+  max-width: 1440px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 330px; 
+  height: 350px; 
+  background-color: rgb(240, 240, 240);
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+.container .conteudo .img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.conteudo .img img{
+  border-radius: 50px;
+}
+
+.perfil{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 ;
+}
+
+.perfil .nome, .idade, .nacao{
+  font-size: 23px;
+  text-align: center;
+}
+
+.perfil .idade{
+  color: var(--cor-texto);
+}
+
+.nacao{
+  font-weight: 400;
+  color: var(--cor-texto);
+  margin-bottom: 30px;
+}
+
+.social-info{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  position: relative;
+}
+
+.divisor{
+  position: absolute;
+  width: 329px;
+  height: 2px;
+  background-color: #000;
+  opacity: 0.2;
+}
+
+.social-info .seguidores, .like, .fotos{
+  font-weight: 700;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.social-info  p{
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 5px;
+  letter-spacing: 2px;
+  color: var(--cor-texto);
+}
+
+
+
+
+
